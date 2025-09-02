@@ -1,0 +1,24 @@
+[ConvNeXt-Base] Metrics
+========================================
+
+Test accuracy:        0.7750
+
+Best train  acc:      0.9969
+Worst train acc:      0.2574
+Best val    acc:      0.7437
+Worst val   acc:      0.2816
+
+Lowest train  loss:   0.4592
+Highest train loss:   1.4640
+Lowest val    loss:   0.9623
+Highest val   loss:   1.4494
+
+Macro F1:             0.7568
+Weighted F1:          0.7738
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.8393  0.8868  0.8624      53  0.8868
+Anxiety          0.7429  0.8387  0.7879      31  0.8387
+Fear             0.6154  0.6667  0.6400      24  0.6667
+Neutral          0.8140  0.6731  0.7368      52  0.6731

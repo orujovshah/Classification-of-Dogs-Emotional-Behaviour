@@ -1,0 +1,24 @@
+[VGG16-OnFly] Metrics
+========================================
+
+Test accuracy:        0.6250
+
+Best train  acc:      1.0000
+Worst train acc:      0.5709
+Best val    acc:      0.7365
+Worst val   acc:      0.6173
+
+Lowest train  loss:   0.0026
+Highest train loss:   1.0151
+Lowest val    loss:   0.7551
+Highest val   loss:   1.1687
+
+Macro F1:             0.5677
+Weighted F1:          0.6119
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.6780  0.7547  0.7143      53  0.7547
+Anxiety          0.6364  0.4516  0.5283      31  0.4516
+Fear             0.4375  0.2917  0.3500      24  0.2917
+Neutral          0.6190  0.7500  0.6783      52  0.7500

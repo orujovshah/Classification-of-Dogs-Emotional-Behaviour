@@ -1,0 +1,24 @@
+[WithAug-MobileNetV2] Metrics
+========================================
+
+Test accuracy:        0.7250
+
+Best train  acc:      0.9981
+Worst train acc:      0.5368
+Best val    acc:      0.7617
+Worst val   acc:      0.6029
+
+Lowest train  loss:   0.0071
+Highest train loss:   1.0894
+Lowest val    loss:   0.8635
+Highest val   loss:   1.3650
+
+Macro F1:             0.6904
+Weighted F1:          0.7221
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.8400  0.7925  0.8155      53  0.7925
+Anxiety          0.6471  0.7097  0.6769      31  0.7097
+Fear             0.6111  0.4583  0.5238      24  0.4583
+Neutral          0.7069  0.7885  0.7455      52  0.7885

@@ -1,0 +1,24 @@
+[Coarse] Metrics
+========================================
+
+Test accuracy:        0.8545
+
+Best train  acc:      0.9945
+Worst train acc:      0.4294
+Best val    acc:      0.8325
+Worst val   acc:      0.5210
+
+Lowest train  loss:   0.0281
+Highest train loss:   1.2410
+Lowest val    loss:   0.5795
+Highest val   loss:   1.1336
+
+Macro F1:             0.8525
+Weighted F1:          0.8561
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.9408  0.8563  0.8966     167  0.8563
+Distress         0.7884  0.8324  0.8098     179  0.8324
+Happiness        0.9310  0.9050  0.9178     179  0.9050
+Neutral          0.7586  0.8148  0.7857     135  0.8148

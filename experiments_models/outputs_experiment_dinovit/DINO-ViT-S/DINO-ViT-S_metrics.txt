@@ -1,0 +1,24 @@
+[DINO-ViT-S] Metrics
+========================================
+
+Test accuracy:        0.7875
+
+Best train  acc:      0.9953
+Worst train acc:      0.2309
+Best val    acc:      0.7942
+Worst val   acc:      0.2527
+
+Lowest train  loss:   0.4009
+Highest train loss:   1.5252
+Lowest val    loss:   0.8658
+Highest val   loss:   1.4848
+
+Macro F1:             0.7583
+Weighted F1:          0.7865
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.8571  0.9057  0.8807      53  0.9057
+Anxiety          0.8387  0.8387  0.8387      31  0.8387
+Fear             0.5417  0.5417  0.5417      24  0.5417
+Neutral          0.7959  0.7500  0.7723      52  0.7500

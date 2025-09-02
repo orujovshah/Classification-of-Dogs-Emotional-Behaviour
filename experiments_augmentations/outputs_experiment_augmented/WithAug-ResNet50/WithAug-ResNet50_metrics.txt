@@ -1,0 +1,24 @@
+[WithAug-ResNet50] Metrics
+========================================
+
+Test accuracy:        0.7562
+
+Best train  acc:      0.9986
+Worst train acc:      0.3724
+Best val    acc:      0.7617
+Worst val   acc:      0.4657
+
+Lowest train  loss:   0.0228
+Highest train loss:   1.3283
+Lowest val    loss:   0.7474
+Highest val   loss:   1.2388
+
+Macro F1:             0.7288
+Weighted F1:          0.7552
+
+Class              Prec     Rec      F1    Supp     Acc
+-------------------------------------------------------
+Aggressiveness   0.8302  0.8302  0.8302      53  0.8302
+Anxiety          0.6364  0.6774  0.6562      31  0.6774
+Fear             0.7000  0.5833  0.6364      24  0.5833
+Neutral          0.7778  0.8077  0.7925      52  0.8077
